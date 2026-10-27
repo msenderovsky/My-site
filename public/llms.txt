@@ -32,9 +32,9 @@
 1. **ProyectoBackend:** E-commerce backend API architecture featuring JWT authentication, role-based access control (RBAC), and MongoDB persistence (Node.js, Express, MongoDB, Docker).
    - Code: https://github.com/msenderovsky/ProyectoBackend
 2. **Django Movie-Reviews Platform:** Web application with custom user models, relational review schemas, and rating aggregation algorithms (Python, Django, SQLite).
-   - Code: https://github.com/msenderovsky/django-movie-reviews
+   - Code: https://github.com/msenderovsky/Entrega-final-Django-Senderovsky
 3. **Bellacos Store:** React-based online store application with Firebase, featuring a product catalog and shopping cart management (React, Firebase, JavaScript).
-   - Code: https://github.com/msenderovsky/bellacos-store
+   - Code: https://github.com/msenderovsky/BellacosStoreSenderovsky
 4. **html_autor:** Website developed for a fictional author, featuring structured semantic HTML5, CSS3, and modern web development standards.
    - Code: https://github.com/msenderovsky/html_autor
 

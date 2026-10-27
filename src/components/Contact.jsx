@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Mail, Linkedin, Github, CheckCircle2, AlertTriangle } from 'lucide-react';
 
-const CONTACT_ENDPOINT_URL = '/api/inquiry'; // Configurable endpoint constant
+// Free serverless email endpoint that dispatches directly to msenderovsky@gmail.com
+const CONTACT_ENDPOINT_URL = 'https://formsubmit.co/ajax/msenderovsky@gmail.com';
 
 export default function Contact({ t, selectedService }) {
   const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ export default function Contact({ t, selectedService }) {
   const validate = () => {
     const errs = {};
     if (!formData.name.trim()) {
-      errs.name = t.contact.nameLabel + ' is required';
+      errs.name = t.contact.nameLabel + ' required';
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!formData.email.trim() || !emailRegex.test(formData.email.trim())) {
@@ -51,7 +52,7 @@ export default function Contact({ t, selectedService }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Check honeypot
+    // Check honeypot for bot filtering
     if (formData.website_hp) {
       console.warn('Bot detected via honeypot');
       setStatus('success');
@@ -68,27 +69,42 @@ export default function Contact({ t, selectedService }) {
     setStatus('submitting');
 
     try {
-      // Attempt endpoint post
+      // 1. Send inquiry directly to msenderovsky@gmail.com via FormSubmit AJAX API
       const res = await fetch(CONTACT_ENDPOINT_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
           projectScope: formData.projectScope,
-          details: formData.details,
+          message: formData.details,
+          _subject: `Consulta de Proyecto Portfolio: ${formData.name} [${formData.projectScope}]`,
+          _captcha: 'false',
         }),
       });
 
       if (!res.ok) {
-        throw new Error('Endpoint submission returned ' + res.status);
+        throw new Error('Endpoint submission returned status ' + res.status);
       }
+
       setStatus('success');
-    } catch {
-      // Instant fallback to direct mailto window
-      const subject = encodeURIComponent(`Project Inquiry [${formData.projectScope}]: ${formData.name}`);
+      setFormData({
+        name: '',
+        email: '',
+        projectScope: '',
+        details: '',
+        website_hp: '',
+      });
+    } catch (err) {
+      console.warn('Form endpoint fallback to mailto client:', err);
+
+      // 2. Reliable client fallback: opens default mail client pre-filled to msenderovsky@gmail.com
+      const subject = encodeURIComponent(`Consulta de Proyecto [${formData.projectScope}]: ${formData.name}`);
       const body = encodeURIComponent(
-        `Name: ${formData.name}\nEmail: ${formData.email}\nScope: ${formData.projectScope}\n\nProject Specifications:\n${formData.details}`
+        `Nombre: ${formData.name}\nEmail: ${formData.email}\nTipo de Proyecto: ${formData.projectScope}\n\nDetalles del Proyecto:\n${formData.details}`
       );
       window.location.href = `mailto:msenderovsky@gmail.com?subject=${subject}&body=${body}`;
       setStatus('success');
@@ -157,7 +173,7 @@ export default function Contact({ t, selectedService }) {
               <div className="form-feedback-alert success" role="alert" aria-live="polite">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.25rem' }}>
                   <CheckCircle2 size={16} aria-hidden="true" />
-                  <strong>State Preview (Success):</strong>
+                  <strong>Consulta enviada:</strong>
                 </div>
                 {t.contact.feedbackSuccess}
               </div>
@@ -167,7 +183,7 @@ export default function Contact({ t, selectedService }) {
               <div className="form-feedback-alert error" role="alert" aria-live="assertive">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.25rem' }}>
                   <AlertTriangle size={16} aria-hidden="true" />
-                  <strong>State Preview (Error):</strong>
+                  <strong>Error en los campos:</strong>
                 </div>
                 {t.contact.feedbackError}
               </div>
