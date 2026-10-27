@@ -1,0 +1,16 @@
+/* TEAM */
+Engineer: Marcos Senderovsky
+Role: Full Stack & Backend Developer
+Location: Bahía Blanca, Buenos Aires, Argentina
+Site: https://msenderovsky.dev
+GitHub: https://github.com/msenderovsky
+LinkedIn: https://www.linkedin.com/in/msenderovsky
+
+/* SITE */
+Standards: HTML5, CSS3, SASS (SCSS), ECMAScript 2022
+Components: React
+Build Tool: Vite
+Aesthetic: Architectural Blueprint & Engineering Wireframe
+Accessibility: WCAG AA
+Internationalization: Bilingual (ES / EN) with build-time pre-rendering
+Last updated: October 2026

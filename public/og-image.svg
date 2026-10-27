@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#252b36" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f1216"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <rect x="60" y="60" width="1080" height="510" fill="none" stroke="#384252" stroke-width="2"/>
+  <rect x="52" y="52" width="16" height="16" fill="#6db1ff"/>
+  <rect x="1132" y="52" width="16" height="16" fill="#6db1ff"/>
+  <rect x="52" y="562" width="16" height="16" fill="#6db1ff"/>
+  <rect x="1132" y="562" width="16" height="16" fill="#6db1ff"/>
+  
+  <text x="100" y="130" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="600" fill="#7c8899" letter-spacing="2">&lt;ARCHITECTURAL_BLUEPRINT // FULL_STACK_ENGINEER&gt;</text>
+  
+  <text x="100" y="240" font-family="'Space Grotesk', sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="-1">Marcos Senderovsky</text>
+  
+  <text x="100" y="300" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="500" fill="#6db1ff">Full Stack Developer · Backend-focused · Python, Django, Node.js, React</text>
+  
+  <text x="100" y="360" font-family="'Inter', sans-serif" font-size="20" fill="#a8b2c1">📍 Bahía Blanca, Argentina [UTC-3] · Available for Freelance &amp; Remote Worldwide</text>
+  
+  <line x1="100" y1="410" x2="1100" y2="410" stroke="#2e3541" stroke-width="1.5"/>
+  
+  <text x="100" y="470" font-family="'JetBrains Mono', monospace" font-size="16" fill="#7c8899">CORE_STACK: [Python] [Django] [Node.js] [MongoDB] [React] [MySQL] [Java] [Ren'Py]</text>
+  <text x="100" y="510" font-family="'JetBrains Mono', monospace" font-size="16" fill="#2ecb72">SYSTEM_STATUS: ALL_ENDPOINTS_NOMINAL // BILINGUAL (ES/EN) ACTIVE</text>
+</svg>

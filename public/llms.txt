@@ -1,0 +1,45 @@
+# Marcos Senderovsky — Full Stack & Backend Developer
+
+## Overview / Resumen
+- **Name / Nombre:** Marcos Senderovsky
+- **Role / Rol:** Full Stack Developer with strong Backend focus / Desarrollador Full Stack con foco en Backend
+- **Location / Ubicación:** Bahía Blanca, Buenos Aires, Argentina (UTC-3)
+- **Availability / Disponibilidad:** Freelance contracts & engineering reinforcement in Argentina and remotely worldwide / Contratos freelance y refuerzo de ingeniería en Argentina y remoto global
+- **Languages / Idiomas:** Spanish (Native/C2), English (Professional working/B2), French (Basic/A2)
+- **Direct Contact / Contacto directo:**
+  - Email: msenderovsky@gmail.com
+  - GitHub: https://github.com/msenderovsky
+  - LinkedIn: https://www.linkedin.com/in/msenderovsky
+  - Web: https://msenderovsky.dev/ (ES: /es/, EN: /en/)
+  *(Phone number withheld for asynchronous engineering efficiency / Teléfono omitido por eficiencia asíncrona)*
+
+## Core Stack / Tecnologías Principales
+- **Backend & Languages:** Python (Django), Node.js (Express), JavaScript (ES6+), Java, PHP
+- **Specialized Engines:** Ren'Py (Visual Novel screen architecture & minigames)
+- **Databases:** MySQL, MongoDB, SQLite
+- **Frontend:** React, HTML5 Semantic, CSS3, SASS (SCSS)
+- **Architecture & Protocols:** REST APIs, JWT & Role-Based Access Control (RBAC), Docker, Linux / Bash, Git / GitHub, Postman, CI/CD
+
+## Education / Educación
+- **Computer Science Studies (Licenciatura en Ciencias de la Computación):** Universidad Nacional del Sur (UNS), Bahía Blanca, Argentina (2011–2021). Coursework completed; degree not completed.
+
+## Freelance Services / Servicios Freelance
+1. **Backend Systems & REST APIs:** Scalable server architectures, microservices, auth systems (JWT/RBAC), API gateways, and asynchronous task queues.
+2. **Full Stack Web Applications:** End-to-end engineering connecting structured backend APIs with modular, responsive React interfaces.
+3. **Database Management & Queries:** Database maintenance, querying, and data persistence for MySQL and MongoDB. Backend integration and reliable data handling for production applications.
+
+## Featured Projects / Proyectos Destacados
+1. **ProyectoBackend:** E-commerce backend API architecture featuring JWT authentication, role-based access control (RBAC), and MongoDB persistence (Node.js, Express, MongoDB, Docker).
+   - Code: https://github.com/msenderovsky/ProyectoBackend
+2. **Django Movie-Reviews Platform:** Web application with custom user models, relational review schemas, and rating aggregation algorithms (Python, Django, SQLite).
+   - Code: https://github.com/msenderovsky/django-movie-reviews
+3. **Bellacos Store:** React-based online store application with Firebase, featuring a product catalog and shopping cart management (React, Firebase, JavaScript).
+   - Code: https://github.com/msenderovsky/bellacos-store
+4. **html_autor:** Website developed for a fictional author, featuring structured semantic HTML5, CSS3, and modern web development standards.
+   - Code: https://github.com/msenderovsky/html_autor
+
+## Professional Experience / Experiencia Profesional
+- **Lichted Studios (2024–Present):** Python Developer. Custom UI interfaces, screen language architecture, and dynamic 2D animations within the Ren'Py engine.
+- **Patsy n' Crinkles (2024):** Python Developer. Interactive gameplay minigames and scripting in Python/Ren'Py for single-player titles.
+- **Bernardo Lew (2023):** Systems Analyst / Software Developer. Maintenance and optimization of the Orbital System (Java/MySQL) for hospitals and clinical laboratories.
+- **Universidad Nacional del Sur (2014–2022):** Volunteer Technical Support. Hardware diagnostics and refurbishing computers, assembling complete PCs from salvaged parts for donation to community entities linked to UNS.

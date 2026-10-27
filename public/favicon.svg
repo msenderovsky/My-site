@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" fill="#181c20" rx="0" />
+  <line x1="0" y1="32" x2="64" y2="32" stroke="#2e3541" stroke-width="1" />
+  <line x1="32" y1="0" x2="32" y2="64" stroke="#2e3541" stroke-width="1" />
+  <rect x="8" y="8" width="48" height="48" fill="none" stroke="#ced4da" stroke-width="1.5" />
+  <text x="32" y="38" font-family="'Space Grotesk', monospace" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">MS</text>
+  <rect x="6" y="6" width="4" height="4" fill="#ced4da" />
+  <rect x="54" y="6" width="4" height="4" fill="#ced4da" />
+  <rect x="6" y="54" width="4" height="4" fill="#ced4da" />
+  <rect x="54" y="54" width="4" height="4" fill="#ced4da" />
+</svg>

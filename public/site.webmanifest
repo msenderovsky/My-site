@@ -1,0 +1,17 @@
+{
+  "name": "Marcos Senderovsky — Full Stack Developer",
+  "short_name": "MS Portfolio",
+  "description": "Bilingual portfolio and freelance engineering platform for Marcos Senderovsky, Full Stack and Backend-focused developer based in Bahía Blanca, Argentina.",
+  "start_url": "/es/",
+  "display": "standalone",
+  "background_color": "#181c20",
+  "theme_color": "#181c20",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
