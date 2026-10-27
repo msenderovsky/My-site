@@ -272,11 +272,11 @@ export const en = {
       },
       {
         q: "What is your typical workflow and turnaround time for a project?",
-        a: "I follow an iterative delivery model: requirements breakdown -> API contract & architecture design -> milestone-based sprints with automated testing -> deployment and handover with documentation. Turnaround depends on scope, typically 2 to 6 weeks for focused modules.",
+        a: "I work in phases: we define requirements and scope, build modules iteratively, and deliver for review. Turnaround depends on the project, typically 2 to 6 weeks for well-defined modules.",
       },
       {
         q: "Can you take over or refactor an existing legacy codebase?",
-        a: "Yes. With professional experience maintaining and modernizing critical systems in Java/MySQL and Python, I conduct architectural audits, implement regression safety nets, and incrementally refactor legacy code without disrupting production.",
+        a: "Yes. I have experience maintaining and optimizing systems in Java/MySQL and Python. I can join existing codebases, understand the system logic, and refactor code progressively to ensure operational continuity.",
       },
       {
         q: "Do you build frontend interfaces in addition to backend systems?",
@@ -284,15 +284,15 @@ export const en = {
       },
       {
         q: "How do we communicate and track milestones during a freelance engagement?",
-        a: "We communicate through digital channels (Email, GitHub, asynchronous project boards, and scheduled video conferences). Milestones are tracked transparently with weekly demos, Git pull requests, and clear deliverable sign-offs.",
+        a: "Via email, GitHub, task management boards, and scheduled calls as needed. Progress is coordinated through deliverable demos and direct reviews.",
       },
       {
         q: "What are your payment terms and billing structures?",
         a: "I offer fixed-scope milestone billing for defined deliverables as well as hourly/retainer arrangements for ongoing development. Invoicing and international payment methods are agreed upon prior to project kickoff.",
       },
       {
-        q: "How do you ensure code quality, test coverage, and security?",
-        a: "Every project adheres to zero-trust input validation, JWT/role-based access control (RBAC), parameterized database queries to prevent injection, automated unit/integration testing, and strict separation of concerns.",
+        q: "How do you ensure code quality and security?",
+        a: "Through input validation at HTTP endpoints, secure JWT authentication with role-based access control (RBAC), parameterized database queries to prevent SQL injection, and a clean separation of concerns in the system architecture.",
       },
     ],
   },

@@ -272,11 +272,11 @@ export const es = {
       },
       {
         q: "¿Cuál es tu metodología de trabajo y tiempos de entrega habituales?",
-        a: "Sigo un modelo de entregas iterativas: relevamiento de requerimientos -> contrato de API y arquitectura -> sprints con testing automatizado -> despliegue y documentación. Los plazos varían según alcance, típicamente de 2 a 6 semanas para módulos bien definidos.",
+        a: "Trabajo por etapas: definimos los requerimientos y el alcance, desarrollo los módulos de forma iterativa y realizamos entregas para revisión. Los plazos dependen del proyecto, habitualmente de 2 a 6 semanas para módulos definidos.",
       },
       {
         q: "¿Podés incorporarte o refactorizar una base de código heredada (legacy)?",
-        a: "Sí. Cuento con experiencia profesional manteniendo y optimizando sistemas críticos en Java/MySQL y Python. Realizo auditorías arquitectónicas, incorporo redes de seguridad de pruebas y refactorizo código de manera incremental sin interrumpir producción.",
+        a: "Sí. Cuento con experiencia manteniendo y optimizando sistemas en Java/MySQL y Python. Puedo incorporarme a proyectos existentes, comprender la lógica del sistema y refactorizar código de manera gradual para asegurar su continuidad operativa.",
       },
       {
         q: "¿Desarrollás interfaces de usuario además de sistemas backend?",
@@ -284,15 +284,15 @@ export const es = {
       },
       {
         q: "¿Cómo nos comunicamos y monitoreamos los avances durante el proyecto?",
-        a: "Utilizamos canales digitales asíncronos y directos (Email, GitHub, tableros de gestión y videollamadas programadas). Los hitos se validan con demos semanales, revisiones de Pull Requests y criterios de aceptación claros.",
+        a: "Por email, GitHub, tableros de gestión y videollamadas programadas según sea necesario. Los avances se coordinan con demos de entregables y revisiones directas.",
       },
       {
         q: "¿Cuáles son las condiciones de pago y estructuras de facturación?",
         a: "Ofrezco facturación por hitos acordados con entregables definidos, así como esquemas por hora o retainer para soporte continuo. Las modalidades y plataformas de cobro internacional se acuerdan antes de iniciar el trabajo.",
       },
       {
-        q: "¿Cómo garantizás la calidad del código, cobertura de tests y seguridad?",
-        a: "Cada entrega implementa validación de confianza cero en los endpoints HTTP, tokens JWT con control de acceso por roles (RBAC), consultas parametrizadas para prevenir inyecciones SQL, pruebas automatizadas y separación estricta de responsabilidades.",
+        q: "¿Cómo garantizás la calidad del código y la seguridad?",
+        a: "Mediante validación de datos en los endpoints HTTP, autenticación segura con JWT y control de acceso (RBAC), consultas parametrizadas para evitar inyecciones SQL y una clara separación de responsabilidades en la arquitectura del sistema.",
       },
     ],
   },
