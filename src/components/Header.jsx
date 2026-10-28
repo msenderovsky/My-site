@@ -11,7 +11,6 @@ export default function Header({ t, lang, onLangChange, theme, onThemeToggle }) 
     { href: '#experience', label: t.header.nav.experience },
     { href: '#skills', label: t.header.nav.skills },
     { href: '#faq', label: t.header.nav.faq },
-    { href: '#contact', label: t.header.nav.contact },
   ];
 
   const handleNavClick = () => {
