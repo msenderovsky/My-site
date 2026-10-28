@@ -10,7 +10,7 @@
   - Email: msenderovsky@gmail.com
   - GitHub: https://github.com/msenderovsky
   - LinkedIn: https://www.linkedin.com/in/msenderovsky
-  - Web: https://msenderovsky.dev/ (ES: /es/, EN: /en/)
+  - Web: https://marcos-senderovsky-site.netlify.app/ (ES: /es/, EN: /en/)
   *(Phone number withheld for asynchronous engineering efficiency / Teléfono omitido por eficiencia asíncrona)*
 
 ## Core Stack / Tecnologías Principales

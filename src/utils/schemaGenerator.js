@@ -12,7 +12,7 @@
  */
 export function generateJsonLd(lang, t) {
   const isEs = lang === 'es';
-  const siteUrl = 'https://msenderovsky.dev';
+  const siteUrl = 'https://marcos-senderovsky-site.netlify.app';
   const routeUrl = `${siteUrl}/${lang}/`;
   const personId = `${siteUrl}/#person`;
 

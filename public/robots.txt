@@ -1,4 +1,4 @@
-# robots.txt for https://msenderovsky.dev/
+# robots.txt for https://marcos-senderovsky-site.netlify.app/
 User-agent: *
 Allow: /
 
@@ -21,4 +21,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://msenderovsky.dev/sitemap.xml
+Sitemap: https://marcos-senderovsky-site.netlify.app/sitemap.xml

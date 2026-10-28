@@ -8,7 +8,7 @@ export const en = {
     keywords: "Marcos Senderovsky, Backend Developer, Full Stack Developer, Python, Django, Node.js, React, REST APIs, Bahía Blanca, Argentina, Freelance",
     author: "Marcos Senderovsky",
     siteName: "Marcos Senderovsky — Software Engineering Portfolio",
-    url: "https://msenderovsky.dev/en/",
+    url: "https://marcos-senderovsky-site.netlify.app/en/",
     locale: "en_US",
   },
   header: {

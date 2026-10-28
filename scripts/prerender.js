@@ -31,7 +31,7 @@ function buildHtmlTemplate({ lang, content, t, isRoot = false }) {
   const jsonLd = generateJsonLd(lang, t);
   const jsonLdString = JSON.stringify(jsonLd, null, 2);
 
-  const canonicalUrl = `https://msenderovsky.dev/${lang}/`;
+  const canonicalUrl = `https://marcos-senderovsky-site.netlify.app/${lang}/`;
 
   return `<!doctype html>
 <html lang="${lang}">
@@ -47,9 +47,9 @@ function buildHtmlTemplate({ lang, content, t, isRoot = false }) {
 
     <!-- Canonical & Hreflang alternates -->
     <link rel="canonical" href="${canonicalUrl}" />
-    <link rel="alternate" hreflang="es" href="https://msenderovsky.dev/es/" />
-    <link rel="alternate" hreflang="en" href="https://msenderovsky.dev/en/" />
-    <link rel="alternate" hreflang="x-default" href="https://msenderovsky.dev/es/" />
+    <link rel="alternate" hreflang="es" href="https://marcos-senderovsky-site.netlify.app/es/" />
+    <link rel="alternate" hreflang="en" href="https://marcos-senderovsky-site.netlify.app/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://marcos-senderovsky-site.netlify.app/es/" />
 
     <!-- Open Graph Social Metadata -->
     <meta property="og:title" content="${t.meta.title}" />
@@ -58,7 +58,7 @@ function buildHtmlTemplate({ lang, content, t, isRoot = false }) {
     <meta property="og:url" content="${canonicalUrl}" />
     <meta property="og:site_name" content="${t.meta.siteName}" />
     <meta property="og:locale" content="${t.meta.locale}" />
-    <meta property="og:image" content="https://msenderovsky.dev/og-image.png" />
+    <meta property="og:image" content="https://marcos-senderovsky-site.netlify.app/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Marcos Senderovsky - Full Stack Developer Blueprint Portfolio" />
@@ -67,7 +67,7 @@ function buildHtmlTemplate({ lang, content, t, isRoot = false }) {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${t.meta.title}" />
     <meta name="twitter:description" content="${t.meta.description}" />
-    <meta name="twitter:image" content="https://msenderovsky.dev/og-image.png" />
+    <meta name="twitter:image" content="https://marcos-senderovsky-site.netlify.app/og-image.png" />
 
     <!-- Icons & Manifest -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

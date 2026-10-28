@@ -2,7 +2,7 @@
 Engineer: Marcos Senderovsky
 Role: Full Stack & Backend Developer
 Location: Bahía Blanca, Buenos Aires, Argentina
-Site: https://msenderovsky.dev
+Site: https://marcos-senderovsky-site.netlify.app
 GitHub: https://github.com/msenderovsky
 LinkedIn: https://www.linkedin.com/in/msenderovsky
 
