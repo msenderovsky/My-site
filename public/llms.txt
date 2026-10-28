@@ -2,7 +2,7 @@
 
 ## Overview / Resumen
 - **Name / Nombre:** Marcos Senderovsky
-- **Role / Rol:** Full Stack Developer with strong Backend focus / Desarrollador Full Stack con foco en Backend
+- **Role / Rol:** Full Stack & Backend Developer & AI Trainer / Desarrollador Full Stack con foco en Backend y Entrenador de IA
 - **Location / Ubicación:** Bahía Blanca, Buenos Aires, Argentina (UTC-3)
 - **Availability / Disponibilidad:** Freelance contracts & engineering reinforcement in Argentina and remotely worldwide / Contratos freelance y refuerzo de ingeniería en Argentina y remoto global
 - **Languages / Idiomas:** Spanish (Native/C2), English (Professional working/B2), French (Basic/A2)
@@ -18,10 +18,11 @@
 - **Specialized Engines:** Ren'Py (Visual Novel screen architecture & minigames)
 - **Databases:** MySQL, MongoDB, SQLite
 - **Frontend:** React, HTML5 Semantic, CSS3, SASS (SCSS)
+- **AI Model Training & Evaluation:** LLM evaluation, fact-checking, Python code review, translation quality review / Evaluación de modelos de lenguaje (LLM), verificación de datos, revisión de código Python, control de calidad de traducción
 - **Architecture & Protocols:** REST APIs, JWT & Role-Based Access Control (RBAC), Docker, Linux / Bash, Git / GitHub, Postman, CI/CD
 
 ## Education / Educación
-- **Computer Science Studies (Licenciatura en Ciencias de la Computación):** Universidad Nacional del Sur (UNS), Bahía Blanca, Argentina (2011–2021). Coursework completed; degree not completed.
+- **Computer Science Studies (Licenciatura en Ciencias de la Computación):** Universidad Nacional del Sur (UNS), Bahía Blanca, Argentina (2011–2021). Over half of Computer Science coursework completed.
 
 ## Freelance Services / Servicios Freelance
 1. **Backend Systems & REST APIs:** Scalable server architectures, microservices, auth systems (JWT/RBAC), API gateways, and asynchronous task queues.
@@ -39,6 +40,7 @@
    - Code: https://github.com/msenderovsky/html_autor
 
 ## Professional Experience / Experiencia Profesional
+- **DataAnnotation (May 2026–Present / Mayo de 2026–Actualidad):** AI Trainer / Entrenador de IA (Freelance, remote). Training and evaluation of AI language models: selected and compared AI model responses meeting rigorous fact-checking and translation quality standards; reviewed prompts and model responses related to Python programming, assessing correctness and quality.
 - **Lichted Studios (2024–Present):** Python Developer. Custom UI interfaces, screen language architecture, and dynamic 2D animations within the Ren'Py engine.
 - **Patsy n' Crinkles (2024):** Python Developer. Interactive gameplay minigames and scripting in Python/Ren'Py for single-player titles.
 - **Bernardo Lew (2023):** Systems Analyst / Software Developer. Maintenance and optimization of the Orbital System (Java/MySQL) for hospitals and clinical laboratories.

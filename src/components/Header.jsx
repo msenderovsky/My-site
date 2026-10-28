@@ -31,10 +31,7 @@ export default function Header({ t, lang, onLangChange, theme, onThemeToggle }) 
             <a href={`/${lang}/`} className="brand-title" aria-label={`${t.header.name} — Home`}>
               {t.header.name}
             </a>
-            <span className="brand-badge" aria-hidden="true">
-              {t.header.roleBadge}
-            </span>
-          </div>
+            </div>
 
           <nav className="nav-desktop" aria-label={t.header.navAria}>
             {navItems.map((item) => (

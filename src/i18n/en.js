@@ -4,7 +4,7 @@
 export const en = {
   meta: {
     title: "Marcos Senderovsky | Backend & Full Stack Developer",
-    description: "Full Stack Developer focused on Backend (Python, Django, Node.js, React). Freelance API and architecture services from Bahía Blanca & remote.",
+    description: "Full Stack & Backend Developer (Python, Django, Node.js, React) and AI Trainer. Freelance API architecture and LLM evaluation, Bahía Blanca and remote.",
     keywords: "Marcos Senderovsky, Backend Developer, Full Stack Developer, Python, Django, Node.js, React, REST APIs, Bahía Blanca, Argentina, Freelance",
     author: "Marcos Senderovsky",
     siteName: "Marcos Senderovsky — Software Engineering Portfolio",
@@ -23,7 +23,7 @@ export const en = {
       faq: "FAQ",
       contact: "Contact",
     },
-    cta: "Hire me / Contactar",
+    cta: "Contact me",
     themeToggleAria: "Toggle color theme (currently {theme})",
     langSwitchAria: "Switch language to Spanish",
     skipToContent: "Skip to main content",
@@ -35,7 +35,7 @@ export const en = {
     h1Badge: "Professional Portfolio",
     name: "Marcos Senderovsky",
     role: "Full Stack Developer · Backend-focused · Python, Django, Node.js, React",
-    description: "Specialized in robust backend architectures, distributed REST APIs, and scalable web solutions. Helping startups and tech teams engineer reliable server-side systems and end-to-end products.",
+    description: "Specialized in robust backend architectures, distributed REST APIs, and AI language model training and evaluation. Helping startups and tech teams engineer reliable server-side systems and end-to-end products.",
     ctaPrimary: "Contact me for a project",
     ctaSecondary: "View featured projects ↓",
     stackBadge: "Core Technologies",
@@ -152,8 +152,8 @@ export const en = {
     academicYears: "2011 — 2021",
     academicInstitution: "Universidad Nacional del Sur (UNS)",
     academicDegree: "Computer Science Studies (Licenciatura)",
-    academicStatus: "Bahía Blanca, Buenos Aires, Argentina (Degree not completed)",
-    academicCurriculum: "Core coursework: Data Structures, Algorithms, Discrete Mathematics, Relational Database Theory, Computer Networks, and Operating Systems.",
+    academicStatus: "Bahía Blanca, Buenos Aires, Argentina",
+    academicCurriculum: "University coursework in Computer Science (over half of degree completed).",
     pillarsTitle: "Engineering Principles",
     pillars: [
       "Strict Separation of Concerns (Hexagonal / Clean Architecture)",
@@ -166,6 +166,14 @@ export const en = {
     moduleCode: "Work Experience",
     title: "Professional Experience",
     items: [
+      {
+        org: "DataAnnotation",
+        role: "AI Trainer",
+        roleTag: "AI Trainer · Current",
+        year: "May 2026 – Present",
+        description: "Training and evaluation of AI language models, remote, for DataAnnotation.\n- Selected and compared AI model responses: chose correctly translated outputs and those that met a rigorous fact-checking standard.\n- Reviewed prompts and model responses related to Python programming, assessing correctness and quality.",
+        stack: "LLM evaluation, Fact-checking, Python code review, Translation quality review",
+      },
       {
         org: "Lichted Studios",
         role: "Python Developer",
@@ -211,9 +219,9 @@ export const en = {
     tier2Title: "Databases & Storage",
     tier2Tag: "Tier 02",
     tier2Items: ["MySQL", "MongoDB", "SQLite"],
-    tier3Title: "Tools, DevOps & Protocols",
+    tier3Title: "Tools, DevOps & AI Evaluation",
     tier3Tag: "Tier 03",
-    tier3Items: ["Git / GitHub", "Docker", "Linux / Bash", "REST API Design", "Postman", "CI/CD Workflows"],
+    tier3Items: ["Git / GitHub", "Docker", "Linux / Bash", "REST API Design", "LLM evaluation", "Fact-checking", "Python code review", "Translation quality review", "Postman", "CI/CD Workflows"],
     accreditationsTitle: "Accredited Certifications",
     expandLabel: "View details",
     closeLabel: "Close",
@@ -259,8 +267,8 @@ export const en = {
     badge: "9 answered questions",
     items: [
       {
-        q: "What is your primary engineering specialization?",
-        a: "My primary specialization is backend engineering and distributed REST API systems using Python (Django) and Node.js (Express), supplemented by full-stack React capabilities for end-to-end product delivery.",
+        q: "What is your professional experience?",
+        a: "I work on remote training and evaluation of AI language models. My professional background includes: AI training (2026–present), Python/Ren'Py development at Lichted Studios and Patsy n' Crinkles (2024), and software development and maintenance in Java/MySQL at Bernardo Lew (2023).",
       },
       {
         q: "Are you available for freelance or contract work?",

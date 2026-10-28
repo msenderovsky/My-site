@@ -12,7 +12,6 @@ import Experience from './components/Experience.jsx';
 import SkillsCertifications from './components/SkillsCertifications.jsx';
 import FAQ from './components/FAQ.jsx';
 import Contact from './components/Contact.jsx';
-import SpecSheet from './components/SpecSheet.jsx';
 import Footer from './components/Footer.jsx';
 
 export default function App({ initialLang }) {
@@ -131,8 +130,7 @@ export default function App({ initialLang }) {
         <SkillsCertifications t={t} />
         <FAQ t={t} />
         <Contact t={t} selectedService={selectedService} />
-        <SpecSheet t={t} />
-      </main>
+              </main>
 
       <Footer
         t={t}

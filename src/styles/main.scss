@@ -369,12 +369,13 @@ input, textarea, select {
     align-items: center;
     justify-content: space-between;
     height: var(--header-height);
+    gap: 1rem;
   }
 
   .brand-group {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    flex-shrink: 0;
 
     .brand-title {
       font-family: var(--font-display);
@@ -382,23 +383,10 @@ input, textarea, select {
       font-weight: 700;
       letter-spacing: -0.02em;
       color: var(--text-primary);
+      white-space: nowrap;
 
       &:hover {
         color: var(--accent-cyan);
-      }
-    }
-
-    .brand-badge {
-      font-family: var(--font-mono);
-      font-size: 0.675rem;
-      font-weight: 700;
-      color: var(--accent-cyan);
-      border: 1px solid var(--accent-cyan-border);
-      padding: 0.15rem 0.45rem;
-      background-color: var(--accent-blue-subtle);
-
-      @media (max-width: 640px) {
-        display: none;
       }
     }
   }
@@ -406,7 +394,10 @@ input, textarea, select {
   .nav-desktop {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    justify-content: center;
+    gap: clamp(0.75rem, 1.2vw, 1.35rem);
+    flex: 1 1 auto;
+    margin: 0 1.25rem;
 
     @media (max-width: 992px) {
       display: none;
@@ -414,9 +405,10 @@ input, textarea, select {
 
     .nav-link {
       font-family: var(--font-body);
-      font-size: 0.875rem;
+      font-size: 0.85rem;
       color: var(--text-secondary);
       font-weight: 500;
+      white-space: nowrap;
       transition: color 0.15s ease;
 
       &:hover {
@@ -424,7 +416,6 @@ input, textarea, select {
       }
     }
   }
-
   .header-actions {
     display: flex;
     align-items: center;
@@ -1138,6 +1129,7 @@ input, textarea, select {
       line-height: 1.6;
       margin-bottom: 1rem;
       color: var(--text-secondary);
+      white-space: pre-line;
     }
 
     .timeline-stack {

@@ -4,7 +4,7 @@
 export const es = {
   meta: {
     title: "Marcos Senderovsky | Desarrollador Backend & Full Stack",
-    description: "Desarrollador Full Stack con foco en Backend (Python, Django, Node.js, React). Servicios freelance de arquitectura y APIs en Bahía Blanca y remoto.",
+    description: "Desarrollador Full Stack y Backend (Python, Django, Node.js, React) y Entrenador de IA. Servicios freelance de arquitectura de APIs en Bahía Blanca y remoto.",
     keywords: "Marcos Senderovsky, Desarrollador Backend, Desarrollador Full Stack, Python, Django, Node.js, React, APIs REST, Bahía Blanca, Argentina, Freelance",
     author: "Marcos Senderovsky",
     siteName: "Marcos Senderovsky — Portafolio de Ingeniería de Software",
@@ -23,7 +23,7 @@ export const es = {
       faq: "FAQ",
       contact: "Contacto",
     },
-    cta: "Hire me / Contactar",
+    cta: "Contactame",
     themeToggleAria: "Cambiar tema de color (actualmente {theme})",
     langSwitchAria: "Cambiar idioma a Inglés",
     skipToContent: "Saltar al contenido principal",
@@ -35,7 +35,7 @@ export const es = {
     h1Badge: "Portafolio Profesional",
     name: "Marcos Senderovsky",
     role: "Desarrollador Full Stack · Foco en Backend · Python, Django, Node.js, React",
-    description: "Especializado en arquitecturas backend robustas, APIs REST distribuidas y soluciones web escalables. Ayudo a startups y equipos tecnológicos a diseñar sistemas confiables del lado del servidor y productos de punta a punta.",
+    description: "Especializado en arquitecturas backend robustas, APIs REST distribuidas y entrenamiento y evaluación de modelos de lenguaje (IA). Ayudo a startups y equipos tecnológicos a diseñar sistemas confiables del lado del servidor y productos de punta a punta.",
     ctaPrimary: "Contactarme para un proyecto",
     ctaSecondary: "Ver proyectos destacados ↓",
     stackBadge: "Tecnologías Principales",
@@ -152,8 +152,8 @@ export const es = {
     academicYears: "2011 — 2021",
     academicInstitution: "Universidad Nacional del Sur (UNS)",
     academicDegree: "Estudios de Licenciatura en Ciencias de la Computación",
-    academicStatus: "Bahía Blanca, Buenos Aires, Argentina (Carrera no finalizada)",
-    academicCurriculum: "Materias clave cursadas: Estructuras de Datos, Algoritmos, Matemática Discreta, Teoría de Bases de Datos Relacionales, Redes de Computadoras y Sistemas Operativos.",
+    academicStatus: "Bahía Blanca, Buenos Aires, Argentina",
+    academicCurriculum: "Estudios universitarios en Ciencias de la Computación (más de la mitad de la carrera cursada).",
     pillarsTitle: "Pilares de Ingeniería",
     pillars: [
       "Separación estricta de responsabilidades (Arquitectura Limpia / Hexagonal)",
@@ -166,6 +166,14 @@ export const es = {
     moduleCode: "Experiencia Laboral",
     title: "Experiencia Profesional",
     items: [
+      {
+        org: "DataAnnotation",
+        role: "Entrenador de IA",
+        roleTag: "Entrenador de IA · Actual",
+        year: "Mayo de 2026 – Actualidad",
+        description: "Entrenamiento y evaluación de modelos de lenguaje (IA), de forma remota, para DataAnnotation.\n- Selección y comparación de respuestas de modelos de IA: elección de las traducciones correctamente realizadas y de las respuestas que cumplían un riguroso criterio de verificación de datos (fact-checking).\n- Revisión de prompts y respuestas de modelos relacionados con programación en Python, evaluando su corrección y calidad.",
+        stack: "Evaluación de modelos de lenguaje, Verificación de datos, Revisión de código Python, Revisión de calidad de traducción",
+      },
       {
         org: "Lichted Studios",
         role: "Desarrollador Python",
@@ -211,9 +219,9 @@ export const es = {
     tier2Title: "Bases de Datos & Almacenamiento",
     tier2Tag: "Nivel 02",
     tier2Items: ["MySQL", "MongoDB", "SQLite"],
-    tier3Title: "Herramientas, DevOps & Protocolos",
+    tier3Title: "Herramientas, DevOps & Evaluación de IA",
     tier3Tag: "Nivel 03",
-    tier3Items: ["Git / GitHub", "Docker", "Linux / Bash", "Diseño de APIs REST", "Postman", "Flujos CI/CD"],
+    tier3Items: ["Git / GitHub", "Docker", "Linux / Bash", "Diseño de APIs REST", "Evaluación de modelos de lenguaje", "Verificación de datos", "Revisión de código Python", "Revisión de calidad de traducción", "Postman", "Flujos CI/CD"],
     accreditationsTitle: "Certificaciones Acreditadas",
     expandLabel: "Ver detalles",
     closeLabel: "Cerrar",
@@ -259,8 +267,8 @@ export const es = {
     badge: "9 consultas respondidas",
     items: [
       {
-        q: "¿Cuál es tu especialización principal en ingeniería de software?",
-        a: "Mi foco principal es el desarrollo backend y la arquitectura de APIs REST distribuidas con Python (Django) y Node.js (Express), complementado con capacidades full stack en React para construir soluciones web de punta a punta.",
+        q: "¿Qué experiencia profesional tenés?",
+        a: "Trabajo en entrenamiento y evaluación remota de modelos de lenguaje (IA). Mi trayectoria profesional incluye: entrenamiento de IA (2026–actualidad), desarrollo en Python/Ren'Py en Lichted Studios y Patsy n' Crinkles (2024), y desarrollo y mantenimiento de software en Java/MySQL en Bernardo Lew (2023).",
       },
       {
         q: "¿Estás disponible para contratos freelance o trabajos por proyecto?",
