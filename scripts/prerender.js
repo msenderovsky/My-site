@@ -36,6 +36,15 @@ function buildHtmlTemplate({ lang, content, t, isRoot = false }) {
   return `<!doctype html>
 <html lang="${lang}">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RHX9G5RXQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9RHX9G5RXQ');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${t.meta.title}</title>
