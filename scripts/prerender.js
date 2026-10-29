@@ -49,7 +49,6 @@ function buildHtmlTemplate({ lang, content, t, isRoot = false }) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${t.meta.title}</title>
     <meta name="description" content="${t.meta.description}" />
-    <meta name="keywords" content="${t.meta.keywords}" />
     <meta name="author" content="${t.meta.author}" />
     <meta name="robots" content="index, follow" />
     <meta name="google-site-verification" content="shqUpmtzzo2qTsMu15HJz1mCAapleqDudAwqfi-NJ5o" />

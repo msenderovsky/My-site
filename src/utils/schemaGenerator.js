@@ -59,6 +59,9 @@ export function generateJsonLd(lang, t) {
       '@type': 'Service',
       name: svc.title,
       description: svc.description,
+      provider: {
+        '@id': personId,
+      },
     },
   }));
 
@@ -172,7 +175,7 @@ export function generateJsonLd(lang, t) {
         ? 'Servicios profesionales de desarrollo backend, APIs REST distribuidas y aplicaciones full stack para clientes en Argentina y de forma remota para clientes de otros países.'
         : 'Professional backend development, distributed REST APIs, and full-stack web applications for clients in Argentina and available remotely for clients in other countries.',
       url: routeUrl,
-      provider: {
+      founder: {
         '@id': personId,
       },
       areaServed: [
